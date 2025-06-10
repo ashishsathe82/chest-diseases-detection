@@ -23,7 +23,8 @@ def build_model():
     return model
 
 MODEL_PATH = "trained_model.h5"
-MODEL_URL = "1xLlHLjAiXmq5gDbTS7YOCC3E12v5ia5M"
+MODEL_URL = "https://drive.google.com/uc?id=1xLlHLjAiXmq5gDbTS7YOCC3E12v5ia5M"
+
 
 if not os.path.exists(MODEL_PATH):
     gdown.download(MODEL_URL, MODEL_PATH, quiet=False)
