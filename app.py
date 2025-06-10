@@ -63,7 +63,7 @@ if uploaded_file is not None:
         sorted_indices = np.argsort(probabilities)[::-1]
         top_3_indices = sorted_indices[:3]
 
-        st.image(img, caption="Uploaded X-Ray", use_column_width=True)
+        st.image(img, caption="Uploaded X-Ray", use_container_width=True)
 
         st.write("### Disease Probabilities:")
         for i in sorted_indices:
