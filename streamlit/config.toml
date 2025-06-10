@@ -1,8 +1,0 @@
-[general]
-browser.gatherUsageStats = false
-
-[server]
-headless = true
-enableCORS = false
-port = 8501
-enableXsrfProtection = false
